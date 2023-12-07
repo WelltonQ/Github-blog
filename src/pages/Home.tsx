@@ -110,7 +110,7 @@ export function Home() {
                 <span className='text-white'>Publicações</span>
                 <span className='text-base-span text-sm'>{issues.length} publicações</span>
               </div>
-              <input onChange={e => setSearch(e.target.value)} type="text" placeholder='Buscar conteúdo' className='w-full mt-3 bg-base-input py-3 px-4 focus:outline-none focus:border-blue border-base-border border-2 rounded-md text-base-text' />
+              <input onChange={e => setSearch(e.target.value)} value={search} type="text" placeholder='Buscar conteúdo' className='w-full mt-3 bg-base-input py-3 px-4 focus:outline-none focus:border-blue border-base-border border-2 rounded-md text-base-text' />
             </section>
 
             <section className='flex justify-between mt-12 gap-8 flex-wrap'>
