@@ -47,7 +47,7 @@ export function Details() {
   return (
     <div className='bg-base-background h-full'>
       <header className='w-full z-0 relative'>
-        <img src={header} alt="Logo do github no cabeçalho" />
+        <img src={header} className='w-screen' alt="Logo do github no cabeçalho" />
       </header>
 
       <main className="max-w-[864px] mx-auto pb-60 px-4">
