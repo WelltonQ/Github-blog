@@ -20,7 +20,7 @@ O desafio proposto consiste em desenvolver uma aplicação que utilizará da API
 - Criar uma página para exibir um post (issue) completo
 
 ## 🌍 Acesse pelo navegador
-- 
+- https://github-blog-wq.vercel.app
 
 ## 🛠 Tecnologias
 
