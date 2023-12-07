@@ -50,12 +50,12 @@ export function Details() {
         <img src={header} alt="Logo do github no cabeçalho" />
       </header>
 
-      <main className="max-w-[864px] mx-auto pb-60">
+      <main className="max-w-[864px] mx-auto pb-60 px-4">
       
       {loading ? <span className='text-base-title text-3xl flex justify-center py-14'>Carregando...</span> : (
         <>
         <section className='flex px-10 py-8 bg-base-profile rounded-xl min-h-44 relative -mt-24 z-10'>
-          <div className='flex flex-col pl-8 w-full'>
+          <div className='flex flex-col w-full'>
             <div className='w-full flex justify-between items-center'>
               <div className='uppercase items-center text-xs text-sky-400 flex gap-2 no-underline hover:underline cursor-pointer'>
                 <FontAwesomeIcon icon={faChevronLeft} />
@@ -67,7 +67,7 @@ export function Details() {
               </div>
             </div>
             <h1 className='font-bold text-2xl text-base-title my-5'>{issues.title}</h1>
-            <div className='flex gap-5'>
+            <div className='flex gap-5 flex-wrap'>
               <div className='flex gap-2 items-center'>
                 <FontAwesomeIcon icon={faGithub} className='text-base-label text-lg' />
                 <span className='text-base-subtitle text-base'>{issues.user?.login}</span>
